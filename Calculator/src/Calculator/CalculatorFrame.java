@@ -222,7 +222,7 @@ public class CalculatorFrame extends JFrame implements ActionListener {
 
         //判断退格Backspace
         if (e.getSource().equals(backSpace)) {
-            start = true;
+            //start = true;
             s1.deleteCharAt(s1.length() - 1); //删除最后一个
             if (s1.length() == 0)
                 s1.append("0");
